@@ -1,5 +1,5 @@
 # rollup-starter
-a skeleton project which uses rollup.js as the module bundle.
+a skeleton project which uses [rollup.js](http://rollupjs.org/) as the module bundle.
 
 
 
