@@ -4,7 +4,8 @@
   "description": "a skeleton project which uses rollup.js as the module bundle.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "dev": "rollup src/index.js --output build/bundle.js"
   },
   "repository": {
     "type": "git",
@@ -12,12 +13,16 @@
   },
   "keywords": [
     "rollup",
-    "rollup.js"
+    "es6",
+    "bundle"
   ],
   "author": "jma",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JohnnyMa/rollup-starter/issues"
   },
-  "homepage": "https://github.com/JohnnyMa/rollup-starter#readme"
+  "homepage": "https://github.com/JohnnyMa/rollup-starter#readme",
+  "devDependencies": {
+    "rollup-plugin-babel": "^2.4.0"
+  }
 }
