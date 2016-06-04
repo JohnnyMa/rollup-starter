@@ -1,0 +1,23 @@
+{
+  "name": "rollup-starter",
+  "version": "1.0.0",
+  "description": "a skeleton project which uses rollup.js as the module bundle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyMa/rollup-starter.git"
+  },
+  "keywords": [
+    "rollup",
+    "rollup.js"
+  ],
+  "author": "jma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JohnnyMa/rollup-starter/issues"
+  },
+  "homepage": "https://github.com/JohnnyMa/rollup-starter#readme"
+}
