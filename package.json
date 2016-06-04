@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run test",
-    "dev": "rollup src/index.js --output build/bundle.js"
+    "dev": "rollup -c --output build/build.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/JohnnyMa/rollup-starter#readme",
   "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
     "rollup-plugin-babel": "^2.4.0"
   }
 }
